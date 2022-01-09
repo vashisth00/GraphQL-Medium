@@ -1,11 +1,11 @@
 export const PORT = 8080;
 export const environment = {
     development: {
-        serverURL: `http://localhost:${PORT}/`,
-        dbString: 'mongodb://localhost:27017/graphqlTutorial'
+        serverURL: 'https://master.d1n0ovjhvfkxag.amplifyapp.com/`,
+        dbString: 'mongodb+srv://unravel:unravel@cluster0.wptru.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
     },
     production: {
-        serverURL: `http://localhost:${PORT}/`,
-        dbString: 'mongodb://localhost:27017/graphqlTutorial-prod'
+        serverURL: `https://master.d1n0ovjhvfkxag.amplifyapp.com/`,
+        dbString: 'mongodb+srv://unravel:unravel@cluster0.wptru.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
     }
 }
